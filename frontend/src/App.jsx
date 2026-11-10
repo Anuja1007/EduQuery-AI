@@ -1,10 +1,10 @@
+
 import StudentDashboard from "./pages/StudentDashboard";
+import "./App.css";
 
 function App() {
   return (
-    <div>
-      <StudentDashboard />
-    </div>
+    <StudentDashboard />
   );
 }
 

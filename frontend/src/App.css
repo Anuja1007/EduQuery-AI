@@ -695,3 +695,246 @@
     gap: 8px;
   }
 }
+
+/* WELCOME ILLUSTRATION */
+
+.welcome-illustration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 110px;
+}
+
+.welcome-icon {
+  width: 95px;
+  height: 95px;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #dbeafe, #ede9fe);
+  color: #4f46e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* QUICK ACTIONS */
+
+.quick-actions-section {
+  margin-bottom: 30px;
+}
+
+.quick-actions-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 15px;
+}
+
+.quick-action {
+  background: white;
+  border: 1px solid #e8edf5;
+  border-radius: 12px;
+  padding: 17px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  color: #334155;
+  font-size: 11px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.quick-action:hover {
+  border-color: #93c5fd;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(37, 99, 235, 0.08);
+}
+
+.action-icon {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 11px;
+}
+
+.action-icon.blue {
+  background: #eff6ff;
+  color: #2563eb;
+}
+
+.action-icon.purple {
+  background: #f3e8ff;
+  color: #9333ea;
+}
+
+.action-icon.orange {
+  background: #fff7ed;
+  color: #ea580c;
+}
+
+.action-icon.green {
+  background: #dcfce7;
+  color: #16a34a;
+}
+
+.ai-label {
+  display: inline-block;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ddd6fe;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .quick-actions-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .welcome-illustration {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .quick-actions-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* =========================
+   FONT SIZE IMPROVEMENTS
+========================= */
+
+/* Main welcome heading */
+.welcome-section h1 {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.welcome-description {
+  font-size: 15px;
+}
+
+.welcome-label {
+  font-size: 12px;
+}
+
+/* Sidebar */
+.sidebar-logo h2 {
+  font-size: 21px;
+}
+
+.sidebar-logo span {
+  font-size: 12px;
+}
+
+.sidebar-heading {
+  font-size: 12px;
+}
+
+.nav-link {
+  font-size: 15px;
+  padding: 15px 12px;
+  gap: 14px;
+}
+
+.profile-info strong {
+  font-size: 14px;
+}
+
+.profile-info span {
+  font-size: 12px;
+}
+
+/* Top navigation */
+.breadcrumb {
+  font-size: 14px;
+}
+
+.top-profile {
+  font-size: 14px;
+}
+
+/* Statistics cards */
+.card-title {
+  font-size: 15px;
+}
+
+.dashboard-card h2 {
+  font-size: 36px;
+}
+
+.dashboard-card p {
+  font-size: 13px;
+}
+
+/* Section headings */
+.section-header h2 {
+  font-size: 20px;
+}
+
+.section-header h3 {
+  font-size: 18px;
+}
+
+.section-header p {
+  font-size: 13px;
+}
+
+/* Notice cards */
+.notice-category {
+  font-size: 11px;
+  padding: 5px 10px;
+}
+
+.notice-date {
+  font-size: 12px;
+}
+
+.notice-content h3 {
+  font-size: 15px;
+}
+
+.notice-content p {
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+/* Quick actions */
+.quick-action {
+  font-size: 14px;
+}
+
+/* AI assistant */
+.ai-label {
+  font-size: 11px;
+}
+
+.ai-card h3 {
+  font-size: 20px;
+}
+
+.ai-card p {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.ai-button {
+  font-size: 14px;
+}
+
+/* Upcoming events */
+.event-item h4 {
+  font-size: 14px;
+}
+
+.event-item p {
+  font-size: 12px;
+}
+
+/* Footer */
+.dashboard-footer {
+  font-size: 12px;
+}

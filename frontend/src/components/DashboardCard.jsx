@@ -1,9 +1,20 @@
-function DashboardCard({ title, value, description }) {
+
+function DashboardCard({ title, value, description, icon: Icon, color }) {
   return (
     <div className="dashboard-card">
-      <h3>{title}</h3>
-      <h1>{value}</h1>
+
+      <div className="card-top">
+        <span className="card-title">{title}</span>
+
+        <div className={`card-icon ${color}`}>
+          <Icon size={22} />
+        </div>
+      </div>
+
+      <h2>{value}</h2>
+
       <p>{description}</p>
+
     </div>
   );
 }
